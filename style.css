@@ -281,11 +281,13 @@ section img {
 }
 .sc{
   display: flex;
+  padding: 10px;
 }
 .sec{
   margin-left: 40%;
   overflow: hidden;
   display: block;
+  font-weight: bold;
   justify-content: space-evenly; 
   padding: 20px;
   margin: auto auto;
@@ -296,6 +298,8 @@ section img {
   word-spacing: 2px;
   letter-spacing: 2px;
   text-align: center;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 50px;
 }
 .sec:hover {
   transform: scaleX(120%) scaleY(120%);
